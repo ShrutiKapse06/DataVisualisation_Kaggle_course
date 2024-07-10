@@ -1,0 +1,8 @@
+# Set the width and height of the figure
+plt.figure(figsize=(14,6))
+
+# Add title
+plt.title("Daily Global Streams of Popular Songs in 2017-2018")
+
+# Line chart showing daily global streams of each song 
+sns.lineplot(data=spotify_data)
